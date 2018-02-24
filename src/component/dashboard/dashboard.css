@@ -1,0 +1,87 @@
+.dashboard {
+height: 100vh;
+}
+
+.dashboard > div {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0px;
+    flex-direction: column;
+
+}
+
+.dashboard .top-row-dashboard {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dashboard .top-row-dashboard > *+* {
+    margin: 0 10px;
+}
+
+.dashboard .top-row-dashboard .profile-info {
+     display: flex;
+     flex-direction: row;
+     flex: 1;
+     background: white;
+     padding: 10px;
+}
+
+.dashboard .top-row-dashboard .profile-info > div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.dashboard .top-row-dashboard .profile-info button {
+    width: 100%;
+    margin: 10px 0px;
+    height: 40px;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    background: radial-gradient(#ffffff, #f1eceb)
+}
+
+.dashboard .top-row-dashboard .profile-info img{
+    width: 50%;
+    border: 3px solid #ff7a6e;
+
+}
+
+.dashboard .top-row-dashboard .profile-description {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background: white;
+}
+
+.dashboard .recommendations {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 99%;
+    margin-top: 20px;
+    height: 600px;
+    
+}
+
+.dashboard .recommendations > div:first-child{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+    align-items: center;
+}
+
+.dashboard .recommendations > div:first-child span {
+    font-size: 26px;
+}

@@ -1,0 +1,101 @@
+.profile-display {
+    width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0px;
+    flex-direction: column;
+
+}
+
+.profile-display > div:first-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 10px 30px 10px 10px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+.profile-display img {
+    border: 3px solid #ff7a6e;
+}
+
+.profile-display > div:first-child div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.profile-display > div:first-child > div:first-child span{
+    font-size: 24px;
+    margin: 35px 0px;
+    font-weight: bolder;
+}
+
+.profile-display > div:first-child div button{
+    width: 145px;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.3), 0 1px 2px 0 rgba(0,0,0,0.4);
+}
+
+.profile-display > div:first-child div button:first-child{
+    background: radial-gradient(#737373, #403d39);
+    color: white;
+}
+
+.profile-display > div:first-child div button:last-child{
+    background: radial-gradient(#ffffff, #f1eceb);
+    color: black;
+}
+
+.profile-display > div:first-child > div > .nameContainer{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin-left: 35px;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.update-container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 100%;
+    margin-top: 20px;
+    height: 500px;
+    padding: 30px 200px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2), 0 6px 6px 0 rgba(0,0,0,0.3);
+}
+
+.update-container > div{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.update-container > div > * +* {
+    margin: 15px 0px;
+}
+
+.update-container > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-container select, .update-container input{
+    height: 30px;
+    font-size: 20px;
+    
+}
+
+.update-container input{
+border: 1px solid #ff7a6e;
+}
